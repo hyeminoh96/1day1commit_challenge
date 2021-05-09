@@ -3,12 +3,6 @@
 def solution(s):
     import re
     
-    alpha_1 = {'z','o','t','f','s','e','n'}
-    alpha_2 = {'e','n','w','h','o','i'}
-    alpha_3 = {'r','e','o','r','v','x','g','n'}
-    alpha_4 = {'o','e','r','h'}
-    alpha_5 = {'e','n','t'}
-    
     alpha_all = {'z','e','r','o','n','t','w','h','f','u','i','v','s','x','g'}
     
     tr_dict = {"zero":0,"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7,"eight":8,"nine":9}
