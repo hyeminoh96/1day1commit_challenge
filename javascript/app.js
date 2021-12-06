@@ -1,9 +1,8 @@
 // 20211206
 
-function sayHello(){
-    console.log("Hello!");
+function sayHello(nameOfPerson){
+    console.log(nameOfPerson);
 }
 
-sayHello();
-sayHello();
-sayHello();
+sayHello("Hyemin")
+sayHello("Jiho")
