@@ -1,4 +1,5 @@
-const me = "hyemin"
-const days = [1, 2, false, true, null, undefined, "text", me];
+const toBuy = ["potato", "tomato", "pizza"];
 
-console.log(days);
+console.log(toBuy[2]);
+toBuy[2] = "water";
+console.log(toBuy[2]);
