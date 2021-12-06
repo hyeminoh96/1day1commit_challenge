@@ -1,6 +1,4 @@
-const a = 5;
-let isTrue = true; // if you want to modify a var, then use let
+const me = "hyemin"
+const days = [1, 2, false, true, null, undefined, "text", me];
 
-isTrue = false;
-
-// never use var!!
+console.log(days);
