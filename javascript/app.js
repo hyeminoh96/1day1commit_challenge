@@ -1,8 +1,5 @@
-// 20211206
-
-function sayHello(nameOfPerson, age){
-    console.log("Hello, my name is" + nameOfPerson + "and I'm " + age);
+function plus(a, b){
+    console.log(a + b);
 }
 
-sayHello("Hyemin", 26);
-sayHello("Jiho", 30);
+plus(8, 60);
