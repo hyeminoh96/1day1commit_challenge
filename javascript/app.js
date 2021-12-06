@@ -1,7 +1,8 @@
-const toBuy = ["potato", "tomato", "pizza"];
+const player = {
+    name: "Hyemin",
+    age: 25,
+};
 
-console.log(toBuy[2]);
-toBuy[2] = "water";
-console.log(toBuy[2]);
-toBuy.push("one");
-console.log(toBuy);
+player.address = "Seoul";
+
+console.log(player);
