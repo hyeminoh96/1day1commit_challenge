@@ -1,10 +1,6 @@
-const player = {
-    name: "Hyemin",
-    sayHello: function(otherPersonsName){
-        console.log("Hello " + otherPersonsName + " nice to meet you!");
-    },
-};
+const a = 5;
+let isTrue = true; // if you want to modify a var, then use let
 
-console.log(player.name);
-player.sayHello("Mimi");
-player.sayHello("Juho")
+isTrue = false;
+
+// never use var!!
