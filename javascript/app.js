@@ -1,6 +1,7 @@
 const age = 96;
 function calculateKrAge(ageOfForeigner){
-    return ageOfForeigner + 2;
+    ageOfForeigner + 2;
+    return "hello";
 }
 
 const krAge = calculateKrAge(age);  
