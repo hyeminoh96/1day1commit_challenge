@@ -9,3 +9,7 @@ h1 {
 .clicked{
     color: tomato;
 }
+
+.hidden {
+    display: none;
+}
