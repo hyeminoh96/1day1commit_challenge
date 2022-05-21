@@ -40,3 +40,17 @@ class ControlledException(Exception):
     def run_with_custom_parameters(task):
         return task.run()
 
+    def trace_decorator(function):
+        def wrapped(*args, **kwargs):
+            logger.info("%s run", function.__qualname__)
+            return function(*args, **kwargs)
+        return wrapped
+
+    @trace_decorator
+    def process_account(account_id):
+        """process by id"""
+        logger.info("process id %s", account_id)
+
+
+if __name__ == '__main__':
+    help(ControlledException.process_account)
