@@ -1,3 +1,4 @@
+from functools import wraps
 from logging import logger
 
 class ControlledException(Exception):
