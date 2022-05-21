@@ -38,11 +38,10 @@ class Serialization:
     timestamp = format_time,
 )
 
+@dataclass
 class LoginEvent:
-    def __init__(self, username, password, ip, timestamp):
-        self.username = username
-        self.password = password
-        self.ip = ip
-        self.timestamp = timestamp
+    username: str
+    password: str
+    ip: str
+    timestamp: datetime
 
-        
